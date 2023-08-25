@@ -14,34 +14,46 @@ header{
     top: 0px;
     left:0px;
     width: 100%;
-    padding: 30px 15px;
+    padding: 5px 15px;
     background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    border-bottom: 2px solid 	#E5B80B;
-    box-shadow: 1px 0px 8px 	#E5B80B;
+    /* border-bottom: 2px solid 	#E5B80B; */
+    box-shadow: 1px 0px 8px 	#FAE481;
 }
 
-.logo {
-    font-size: 25px;
-    color:#E5B80B ;
+.logo{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: #b68839;
     text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
     font-weight: 600;
 }
 
+.logo img{
+    width: 40px;
+    margin-left: 5px
+}
+
+
 .navbar a {
     font-size: 18px;
-    color: #eed98f;
+    color: #FDF5FA;
     text-decoration: none;
     font-weight: 500;
     margin: 0px 20px;
 }
 
+
 .navbar a:hover, 
 .navbar a.active{
-     color: #E5B80B;
+     color: #b68839;
+
 }
 
 .social-midea{
@@ -65,11 +77,33 @@ header{
 }
 
 .social-midea a:hover {
-    border-color:#E5B80B ;
+    border-color:#A67009 ;
 }
 
 .social-midea a i {
     font-size: 24px;
-    color: #E5B80B;
+    color: #af7b1a;
     transform: rotate(-45deg);
 }
+
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 8% 0px;
+}
+
+.home-content{
+   
+    max-width: 630px;
+}
+.home-content h1{
+    color:#b68839;
+}
+
+.home , h3, p, a{
+    color: #FDF5FA;
+}
+
