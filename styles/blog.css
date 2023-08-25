@@ -7,6 +7,7 @@
 
 body{
     background: black;
+    overflow: hidden;
 }
 
 header{
@@ -101,9 +102,32 @@ header{
 }
 .home-content h1{
     color:#b68839;
+    font-size: 50px;
+    line-height: 1.2;
 }
 
-.home , h3, p, a{
+.home-content  p{
     color: #FDF5FA;
+    font-size: 16px;
+    margin: 15px 0 30px;
+
+}
+
+
+.btn{
+    color: #FDF5FA;
+    background:#3825059f;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 20px 5px 0px;
+    padding: 5px 10px;
+    border: 2px solid #a66f0981;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background:#382505;
+    box-shadow: 0 0 10px #fae4811f;
 }
 
